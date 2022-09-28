@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RetentionLockConfig>
+ <SSHKey name="/home/mike/.ssh/ddr_cmdkey"></SSHKey>
+ <DDUser name="retlock"></DDUser>
+ <DDSystem name="ddve-02.homelab.local"></DDSystem>
+ <DDMtree name="/data/col1/ora01"></DDMtree>
+ <OracleServer name="ora01.homelab.local"></OracleServer>
+ <OracleServer name="ora03.homelab.local"></OracleServer>
+ <OracleServer name="ora04.homelab.local"></OracleServer>
+ <Retention name="1-day"></Retention>
+</RetentionLockConfig>
